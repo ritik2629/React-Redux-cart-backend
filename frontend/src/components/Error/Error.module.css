@@ -1,0 +1,31 @@
+.not_found{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.not_found h2{
+    color: teal;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.not_found p{
+    font-weight: bold;
+    font-size: 20px;
+    color: grey;
+}
+
+.btn{
+    display: block;
+    margin: auto;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 12px;
+    cursor: pointer;
+    background-color: teal;
+    color: white;
+    border: none;
+}
