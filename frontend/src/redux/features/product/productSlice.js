@@ -7,7 +7,7 @@ const initialState ={
 }
 
 export const productFetch=createAsyncThunk('products/producfetch',async()=>{
-        const response=await axios.get('http://localhost:5000/products')
+        const response=await axios.get('https://ecom-houy.onrender.com/products')
         return response?.data
 })
 const productSlice=createSlice({
